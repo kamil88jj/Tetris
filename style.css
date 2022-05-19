@@ -7,36 +7,38 @@
         background: #000;
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
     }
     
     #game {
-        padding-top: 20px;
+        padding-top: 5px;
         font-size: 40px;
-        width: 320px;
+        width: 215px;
+        height: 830px;
         margin: auto;
     }
     
     .main {
-        width: 320px;
-        height: 620px;
-        margin: 20px auto 0;
-        border: 10px solid silver;
+        width: 210px;
+        height: 410px;
+        margin: 10px auto 0;
+        border: 5px solid silver;
         font-size: 0;
     }
     
     .cell {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         border: 1px solid silver;
         display: inline-block;
     }
     
     .movingCell {
-        background-color: blue;
+        background-color: red;
     }
     
     .fixedCell {
-        background-color: green;
+        background-color: purple;
     }
     
     #next-tetro {
