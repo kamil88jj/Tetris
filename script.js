@@ -50,7 +50,7 @@ const gameOver = document.getElementById("game-over");
             nextLevelScore: 1000,
         },
         4: {
-            scorePerLine: 30,
+            scorePerLine: 35,
             speed: 100,
             nextLevelScore: 2000,
         },
